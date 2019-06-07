@@ -1,6 +1,6 @@
 # angels-06-imdb-clone | Chas Academy
 
-This was one of our first school assignments for Chas Academy and we used Laravel to build a movie database like IMDB.
+This was one of our first school assignments for Chas Academy and we used Laravel to build a movie database like IMDB with an admin panel.
 
 
 ## Setup local dev environment
