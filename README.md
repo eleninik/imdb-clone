@@ -1,19 +1,7 @@
-# angels-06-imdb-clone
+# angels-06-imdb-clone | Chas Academy
 
-This is an assignment for Chas Academy with with the goal of building a movie database like IMDB.
+This was one of our first school assignments for Chas Academy and we used Laravel to build a movie database like IMDB.
 
-## Environments
-
-Dev: [dev.amdb](http://dev.amdb.lndgrn.xyz)
-Staging: [staging.amdb](http://staging.amdb.lndgrn.xyz)
-Production: [production.amdb](http://prod.amdb.lndgrn.xyz)
-
-## Routes
-
-Method | URI | Action | Resource
--------|-----|--------|----
-GET | /api/people/actors | ActorsController@index | List all actors
-GET | /api/movies | MoviesController@index | List all movies
 
 ## Setup local dev environment
 
