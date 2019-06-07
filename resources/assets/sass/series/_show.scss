@@ -1,0 +1,566 @@
+* {
+    font-family: 'Montserrat', sans-serif !important;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+main {
+    background-color: rgb(20, 20, 20);
+}
+
+.top {
+    position: relative;
+}
+
+.movieImage {
+    z-index: 1;
+
+    width: 100%;
+    height: 400px;
+    opacity: 0.3;
+    filter: blur(4px);
+}
+
+.movieImageContainer {
+    z-index: 1;
+    background: linear-gradient(
+                 rgba(0, 0 , 0, 1.0), 
+                 rgba(0, 0, 0, .9));
+}
+
+.series-description {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1070;
+    top: 70px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.series-mainContent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 1070px;
+    margin: auto;
+    margin-top: -300px;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px 0 rgba(77,77,79,.2);    
+}
+
+.series-title {
+    font-size:72px;
+}
+
+.series-avarageRating {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    line-height: 0 !important;
+}
+
+.series-avarage {
+    display: flex;
+    font-size: 65px;
+    align-items: baseline;
+}
+
+.series-avarage > p {
+    font-size: 10px !important;
+}
+
+#app > section.series-description > div > div > label {
+    font-size: 60px;
+    padding-right: 5px;
+    color:#FFDC73 ;
+}
+
+.series-title-rating {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 1070px;
+}
+
+.series-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1070px;
+    padding-left: 0 !important;
+}
+
+.grey {
+    color: rgb(158, 157, 157) !important;
+}
+
+
+.stripe {
+    color: white !important;
+}
+
+.series-plot{
+    width: 600px;
+    margin-top: 20px;
+}
+
+.series-addwatchlist {
+    display: flex;
+    position: relative;
+    width: 300px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 17px;
+    padding: 10px;
+    color: rgb(119, 117, 117);
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: #FFDC73 ;
+    border: none;
+}
+
+.together {
+    height: auto;
+}
+
+.series-stars {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 600px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+
+.seriesInfo {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: #313030;
+}
+
+.moviePoster {
+    width: 300px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+
+.movieDataInfo {
+    width: 100%;
+    padding-left: 5%;
+    margin-top: 5px;
+}
+
+.awards {
+    text-align: center;
+    min-height: 200px;
+}
+
+.info-series {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.series-actorMini {
+    width: 140px;
+    height: 200px;
+}
+
+.grey {
+    color: #C4C4C4;
+    font-size: 18px;
+}
+
+.white {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.movieData {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.series-info-photos {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    justify-content: space-around;
+}
+
+.series-actor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4px;
+}
+
+.fa {
+    font-size: 24px;
+}
+
+
+.trailerAndInfo {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.trailerAndInfo > h3 {
+    text-align: center;    
+}
+
+.trailer {
+    width: 737px;
+    height: 450px;
+    margin: 1%;
+}
+
+
+.cast {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
+
+.series-actor > h5 {
+    font-size: 16px;
+    width: 120px;
+}
+
+.storyline, .comments, .reviews {
+    width: 100%;
+    color: black;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+.storyline > div > h3, .details > div > h3, .comments > div > h3, .reviews > div > h3 {
+    line-height: 0.1em;
+    color: black;
+} 
+
+.headerButton {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hiddenbutton {
+    background-color: none;
+    border: none;
+    padding: 0 !important;
+    background: none;
+}
+
+.profil-mini {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.comment {
+    background-color: rgba(190, 188, 188, 0.377);
+    margin: 2px;
+    padding: 20px 75px;
+    border-bottom: 1px solid rgb(51, 50, 50);
+    width: 800px;
+}
+
+.reviews {
+    width: 100%;
+    margin-bottom: 100px;
+    flex-direction: column !important;
+}
+
+.reviews > h4 {
+    float: right;
+    font-size: 20px;
+}
+
+.leave-review {
+    padding-bottom: 50px;
+}
+
+.form-review {
+    padding: 20px;
+    width: 100%;
+    border: 3px solid #FFDC73 ;
+}
+
+.form-title {
+    width: 100%;
+}
+
+.review-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.title-review {
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.current-rating {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.series-rating {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#leave-review > form > ul > li {
+    font-size: 14px;
+}
+
+.comment-delete {
+    padding: 4px !important;
+    float: right;
+    font-size: 10px;   
+}
+
+.review-stars {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0 !important;
+}
+
+.share {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.review-body {
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+}
+
+
+.reviews > h4 {
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.body {
+    width: 100%;
+    padding: 30px;
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+.remove-review {
+    position: absolute;
+    top: 0;
+    left: 55;
+    background-color: rgba(247, 245, 245, 0);
+    color: red;
+    font-size: 12px;
+    border: none;
+}
+
+.delete-review {
+    background-color: rgba(247, 245, 245, 0);
+    color: red;
+    font-size: 12px;
+    border: none;
+}
+
+.remove-review:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.review-comment {
+    position: relative;
+}
+
+.profil-mini-mini {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+.review-info {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.comments-by-users {
+    width: 100%;
+    padding-top: 80px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.user-bubble {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-left: 50px;
+    margin: 2px;
+    padding: 20px;
+}
+
+.bubble {
+    position: relative;
+    width: 90%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.877);
+    font-style: italic;
+    color: rgb(7, 7, 7);
+    align-content: center;
+    margin-left: 15px;
+}
+
+.bubble > h5 {
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.remove-comment {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: red;
+    border: none;
+    font-size: 10px;
+}
+
+.name {
+  color: rgb(115, 115, 119);
+}
+
+.review-comment > p {
+    margin-left: 80px;
+    margin-top: -25px;
+}
+
+.comment-info {
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.comment-button {
+    font-size: 15px;
+    float: right;
+    
+    border: none;
+    background-color: rgba(48, 46, 46, 0.014);
+    cursor: pointer;
+}
+
+.fa-envelope {
+    font-size: 30px;
+}
+
+.fa-comment {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.nothing {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.014);
+}
+
+.episode-info {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/****** Css from stack overflow, modified *****/
+@import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { 
+    margin: 0;
+    padding: 0; 
+}
+
+.rating { 
+    border: none;
+    font-size: 35px;
+    margin-right: 30%;
+}
+
+.rating > input { 
+    display: none;
+} 
+.rating > label:before { 
+    margin: 8px;
+    font-size: 30px;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating > label { 
+    color: rgb(240, 240, 240); 
+}
+
+.rating > input:checked ~ label, 
+.rating:not(:checked) > label:hover,  
+.rating:not(:checked) > label:hover ~ label,
+{ 
+    color: #FFDC73 ;  
+}
+
+.rating > input:checked + label:hover, 
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { 
+    color: #FFDC73 ;  
+}     
+
+.rating > label{float:right}
+
+.your-rating {
+    display: flex;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-size: 20px;    
+    margin-top: -25px;
+}
+
+.checked {
+    color: #FFDC73  !important;  
+}
+
+.media {
+    margin-bottom: 10px;
+}

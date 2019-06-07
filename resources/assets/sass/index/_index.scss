@@ -1,0 +1,92 @@
+.index--list-cards {
+    display: flex;
+    width: 100%;
+    background-color: lightgray;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card--movie-info {
+    margin-left: 15px;
+}
+
+.card--movie-info h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Asap;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.card--movie-info p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.card--movie-score {
+    display: flex;
+    margin-right: 15px;
+}
+
+.card--movie-score p {
+    margin-bottom: 0;
+}
+
+.post-content {
+    display: none;
+    background: none repeat scroll 0 0 black;
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.thumbnail {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 500px;
+
+}
+
+.holder:hover .post-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.index-poster {
+    width: 33.33%;
+    text-align: center;
+    position: absolute;
+    height: 500px;
+}
+
+.holder {
+    display: flex;
+    flex: 1;
+    height: 100%;
+
+}
+
+.post-content>h3>a,
+.post-content>p {
+    color:white;
+}
+
+.index-h2 {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 400%;
+}

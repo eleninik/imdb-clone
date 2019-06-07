@@ -1,0 +1,41 @@
+.people-name {
+    padding-top: 50px;
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    color: rgb(209, 208, 208);
+}
+
+.people {
+    display: flex;
+    color: rgb(209, 208, 208);
+    width: 1000px;
+    margin: auto;
+    right: 0;
+    left: 0;
+    padding-bottom: 50px;
+}
+
+.people--sidebaro {
+    width: 320px;
+    margin-top: 15px;
+}
+
+.people-together {
+    width: 150px;
+}
+
+.people-image {
+    height: 450px !important;
+}
+
+.movie-poster {
+    width: 150px;
+}
+
+.people-bio {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left:15px;
+}
